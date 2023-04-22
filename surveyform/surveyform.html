@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylessurvey.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 id="title">SURVEY FORM</h1>
+			<p id="description">thank you for taking the time to help us improve</p>
+		</header>
+		<form id="survey-form">
+			<div class="form-group">
+				<label id="name-label" for="name">Name
+					<input type="text" id="name" placeholder="enter yourname" required>
+				</label>
+				<label id="email-label" for="email">Email
+					<input type="email" id="email" placeholder="enter your email" required>
+				</label>
+				<label id="number-label" for="age">Age(optional)
+					<input type="number" min="12" max="102" id="number" placeholder="enter your age">
+				</label>
+			</div><br>
+			<div class="form-group">
+				<label>Which option best describes the current role</label>
+				<select id="dropdown">
+					<option value="0">Select the role</option>
+					<option value="1">Student</option>
+					<option value="2">Teacher</option>
+					<option value="3">Graduate</option>
+					<option value="3">Post Graduate</option>
+					<option value="4">Others</option>
+				</select>
+			</div><br>
+			<div class="form-group">
+				<label>Would you recommend this to friends</label>
+					<label><input type="radio" value="recommend1" name="select" class="inline" >Definitely</label>
+					<label><input type="radio" value="recommend2" class="inline" name="select">Maybe</label>
+					<label><input type="radio" value="recommend3" class="inline" name="select">Maybe Not</label>
+			</div><br>
+			<div class="form-group">
+				<label>what is your favorite feature of the this?</label>
+				<select>
+					<option value="0">select the option</option>
+					<option value="1">knowledge</option>
+					<option value="2">content</option>
+					<option value="3">value</option>
+					<option value="4">cost</option>
+				</select>
+			</div><br>
+			
+			<div class="form-group">
+				<label>what would you like to see improved?</label>
+					<label><input type="checkbox" value="option" name="front" class="inline">Front-end projects</label>
+					<label><input type="checkbox" value="option" name="back" class="inline">back-end projects</label>
+					<label><input type="checkbox" value="option" name="data" class="inline">data visualisation</label>
+					<label><input type="checkbox" value="option" class="inline" name="challenges">challenges</label>
+					<label><input type="checkbox" value="option" name="visual" class="inline">open source communitye</label>
+					<label><input type="checkbox" value="option" name="open source" class="inline">visuals</label>
+					<label><input type="checkbox" value="option" name="videos" class="inline">videos</label>
+					<label><input type="checkbox" value="option" class="inline" name="membership">membership </label>
+					<label><input type="checkbox" value="option" name="wiki" class="inline">wiki</label>
+			</div><br>
+			<div>
+				<label id="sug">Suggestions</label><textarea placeholder="enter your text"></textarea><br> 
+			<div class="survey-form">
+				<button type="submit" id="submit" value="submit">Submit</button>
+			</div>
+		</form>
+	</body>
+</html>
+        

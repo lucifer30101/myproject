@@ -1,0 +1,512 @@
+@font-face {
+	    font-family: "Flaticon";
+	    src: url("./Flaticon.eot");
+	    src: url("./Flaticon.eot?#iefix") format("embedded-opentype"), url("./Flaticon.woff2") format("woff2"), url("./Flaticon.woff") format("woff"), url("./Flaticon.ttf") format("truetype"), url("./Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("./Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+	
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    /* font-size: 20px;
+font-style: normal;
+margin-left: 20px; */
+	}
+	
+	.flaticon-temple:before {
+	    content: "\f100";
+	}
+	
+	.flaticon-road:before {
+	    content: "\f101";
+	}
+	
+	.flaticon-car-breakdown:before {
+	    content: "\f102";
+	}
+	
+	.flaticon-bus:before {
+	    content: "\f103";
+	}
+	
+	.flaticon-taxi:before {
+	    content: "\f104";
+	}
+	
+	.flaticon-healthcare-and-medical:before {
+	    content: "\f105";
+	}
+	
+	.flaticon-puzzle:before {
+	    content: "\f106";
+	}
+	
+	.flaticon-old-couple:before {
+	    content: "\f107";
+	}
+	
+	.flaticon-tree:before {
+	    content: "\f108";
+	}
+	
+	.flaticon-lake:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-dumbbell:before {
+	    content: "\f10a";
+	}
+	
+	.flaticon-sports-and-competition:before {
+	    content: "\f10b";
+	}
+	
+	.flaticon-badminton:before {
+	    content: "\f10c";
+	}
+	
+	.flaticon-swimming-pool:before {
+	    content: "\f10d";
+	}
+	
+	.flaticon-kids:before {
+	    content: "\f10e";
+	}
+	
+	.flaticon-amphitheatre:before {
+	    content: "\f10f";
+	}
+	
+	.flaticon-person-enjoying-jacuzzi-hot-water-bath:before {
+	    content: "\f110";
+	}
+	
+	.flaticon-jogging:before {
+	    content: "\f111";
+	}
+	
+	.flaticon-weightlifting:before {
+	    content: "\f112";
+	}
+	
+	.flaticon-buddhist-yoga-pose:before {
+	    content: "\f113";
+	}
+	
+	.flaticon-rope:before {
+	    content: "\f114";
+	}
+	
+	.flaticon-massage-spa-body-treatment:before {
+	    content: "\f115";
+	}
+	
+	.flaticon-chandelier:before {
+	    content: "\f116";
+	}
+	
+	.flaticon-cricket:before {
+	    content: "\f117";
+	}
+	
+	.flaticon-spring-swing-horse:before {
+	    content: "\f118";
+	}
+	
+	.flaticon-slide:before {
+	    content: "\f119";
+	}
+	
+	.flaticon-architecture-and-city:before {
+	    content: "\f11a";
+	}
+	
+	.flaticon-man-in-a-party-dancing-with-people:before {
+	    content: "\f11b";
+	}
+	
+	.flaticon-cricket-player-with-bat:before {
+	    content: "\f11c";
+	}
+	
+	.flaticon-university-campus:before {
+	    content: "\f11d";
+	}
+	
+	.flaticon-food:before {
+	    content: "\f11e";
+	}
+	
+	.flaticon-cart:before {
+	    content: "\f11f";
+	}
+	
+	.flaticon-farm:before {
+	    content: "\f120";
+	}
+	
+	.flaticon-library:before {
+	    content: "\f121";
+	}
+	
+	.flaticon-reflexology:before {
+	    content: "\f122";
+	}
+	
+	.flaticon-rubbish:before {
+	    content: "\f123";
+	}
+	
+	.flaticon-gate:before {
+	    content: "\f124";
+	}
+	
+	.flaticon-gate-1:before {
+	    content: "\f125";
+	}
+	
+	.flaticon-trail:before {
+	    content: "\f126";
+	}
+	
+	.flaticon-theater:before {
+	    content: "\f127";
+	}
+	
+	.flaticon-receptionist:before {
+	    content: "\f128";
+	}
+	
+	.flaticon-security-camera:before {
+	    content: "\f129";
+	}
+	
+	.flaticon-intercom:before {
+	    content: "\f12a";
+	}
+	
+	.flaticon-seesaw:before {
+	    content: "\f12b";
+	}
+	
+	.flaticon-man-throwing-a-disc-and-dog-jumping-to-catch-it:before {
+	    content: "\f12c";
+	}
+	
+	.flaticon-3d-building:before {
+	    content: "\f12d";
+	}
+	
+	.flaticon-playground:before {
+	    content: "\f12e";
+	}
+	
+	.flaticon-exercise:before {
+	    content: "\f12f";
+	}
+	
+	.flaticon-gps:before {
+	    content: "\f130";
+	}
+	
+	.flaticon-hospital-buildings:before {
+	    content: "\f131";
+	}
+	
+	.flaticon-shopping-bag:before {
+	    content: "\f132";
+	}
+	
+	.flaticon-students-cap:before {
+	    content: "\f133";
+	}
+	
+	.flaticon-maps-and-location:before {
+	    content: "\f134";
+	}
+	
+	.flaticon-pin:before {
+	    content: "\f135";
+	}
+	
+	.flaticon-hospital:before {
+	    content: "\f136";
+	}
+	
+	.flaticon-gps-1:before {
+	    content: "\f137";
+	}
+	
+	.flaticon-mortarboard:before {
+	    content: "\f138";
+	}
+	
+	.flaticon-shopping-bag-1:before {
+	    content: "\f139";
+	}
+	
+	.flaticon-banquet-table:before {
+	    content: "\f13a";
+	}
+	
+	.flaticon-basketball:before {
+	    content: "\f13b";
+	}
+	
+	.flaticon-bicycle-rider:before {
+	    content: "\f13c";
+	}
+	
+	.flaticon-swimming-pool-1:before {
+	    content: "\f13d";
+	}
+	
+	.flaticon-gazebo:before {
+	    content: "\f13e";
+	}
+	
+	.flaticon-lawn:before {
+	    content: "\f13f";
+	}
+	
+	.flaticon-yard-fountain:before {
+	    content: "\f140";
+	}
+	
+	.flaticon-table-tennis:before {
+	    content: "\f141";
+	}
+	
+	.flaticon-car-in-garage:before {
+	    content: "\f142";
+	}
+	
+	.flaticon-furniture:before {
+	    content: "\f143";
+	}
+	
+	.flaticon-squash:before {
+	    content: "\f144";
+	}
+	
+	.flaticon-knight:before {
+	    content: "\f145";
+	}
+	
+	.flaticon-professions-and-jobs:before {
+	    content: "\f146";
+	}
+	
+	.flaticon-swimming-silhouette:before {
+	    content: "\f147";
+	}
+	
+	.flaticon-champagne:before {
+	    content: "\f148";
+	}
+	
+	.flaticon-null:before {
+	    content: "\f149";
+	}
+	
+	.flaticon-visit:before {
+	    content: "\f14a";
+	}
+	
+	.flaticon-road-1:before {
+	    content: "\f14b";
+	}
+	
+	.flaticon-underground:before {
+	    content: "\f14c";
+	}
+	
+	.flaticon-road-2:before {
+	    content: "\f14d";
+	}
+	
+	.flaticon-factory:before {
+	    content: "\f14e";
+	}
+	
+	.flaticon-window:before {
+	    content: "\f14f";
+	}
+	
+	.flaticon-dinning-table:before {
+	    content: "\f150";
+	}
+	
+	.flaticon-check-in-desk:before {
+	    content: "\f151";
+	}
+	
+	.flaticon-airport:before {
+	    content: "\f152";
+	}
+	
+	.flaticon-deck-chairs-and-sun:before {
+	    content: "\f153";
+	}
+	
+	.flaticon-group:before {
+	    content: "\f154";
+	}
+	
+	.flaticon-coffee-cup:before {
+	    content: "\f155";
+	}
+	
+	.flaticon-jainism:before {
+	    content: "\f156";
+	}
+	
+	.flaticon-ice-skating-silhouette:before {
+	    content: "\f157";
+	}
+	
+	.flaticon-toddler:before {
+	    content: "\f158";
+	}
+	
+	.flaticon-china:before {
+	    content: "\f159";
+	}
+	
+	.flaticon-parliament:before {
+	    content: "\f15a";
+	}
+	
+	.flaticon-birthday:before {
+	    content: "\f15b";
+	}
+	
+	.flaticon-ganesha:before {
+	    content: "\f15c";
+	}
+	
+	.flaticon-climbing-with-rope:before {
+	    content: "\f15d";
+	}
+	
+	.flaticon-climb:before {
+	    content: "\f15e";
+	}
+	
+	.flaticon-zebra-crossing:before {
+	    content: "\f15f";
+	}
+	
+	.flaticon-person-playing-billiard:before {
+	    content: "\f160";
+	}
+	
+	.flaticon-study:before {
+	    content: "\f161";
+	}
+	
+	.flaticon-pergola:before {
+	    content: "\f162";
+	}
+	
+	.flaticon-gymnast:before {
+	    content: "\f163";
+	}
+	
+	.flaticon-school:before {
+	    content: "\f164";
+	}
+	
+	.flaticon-village:before {
+	    content: "\f165";
+	}
+	
+	.flaticon-pitch:before {
+	    content: "\f166";
+	}
+	
+	.flaticon-hopscotch:before {
+	    content: "\f167";
+	}
+	
+	.flaticon-beach:before {
+	    content: "\f168";
+	}
+	
+	.flaticon-hotels:before {
+	    content: "\f169";
+	}
+	
+	.flaticon-prison:before {
+	    content: "\f16a";
+	}
+	
+	.flaticon-airport-1:before {
+	    content: "\f16b";
+	}
+	
+	.flaticon-bus-stop:before {
+	    content: "\f16c";
+	}
+	
+	.flaticon-cityscape:before {
+	    content: "\f16d";
+	}
+	
+	.flaticon-lift:before {
+	    content: "\f16e";
+	}
+	
+	.flaticon-bed:before {
+	    content: "\f16f";
+	}
+	
+	.flaticon-book:before {
+	    content: "\f170";
+	}
+	
+	.flaticon-kitchen:before {
+	    content: "\f171";
+	}
+	
+	.flaticon-electric-generator:before {
+	    content: "\f172";
+	}
+	
+	.flaticon-creche:before {
+	    content: "\f173";
+	}
+	
+	.flaticon-running-stick-figure:before {
+	    content: "\f174";
+	}
+	
+	.flaticon-barbeque:before {
+	    content: "\f175";
+	}
+	
+	.flaticon-museum:before {
+	    content: "\f176";
+	}
+	
+	.flaticon-distance:before {
+	    content: "\f177";
+	}
+	
+	.flaticon-mall:before {
+	    content: "\f178";
+	}
+	
+	.flaticon-fruit-tree:before {
+	    content: "\f179";
+	}
